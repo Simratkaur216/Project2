@@ -1,0 +1,15 @@
+import turtle
+
+turtle.bgcolor("grey")
+turtle.shape("turtle")
+turtle.speed(0)
+turtle.pensize(4)
+turtle.color("white")
+
+
+for i in range(30):
+    for j in range(4):
+        turtle.forward(190)
+        turtle.right(85)
+    turtle.right(8)
+
